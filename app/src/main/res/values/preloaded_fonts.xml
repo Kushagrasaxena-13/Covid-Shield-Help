@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aladin</item>
+        <item>@font/almendra_display</item>
+        <item>@font/anonymous_pro</item>
+        <item>@font/antic_didone</item>
+        <item>@font/arvo_italic</item>
+        <item>@font/autour_one</item>
+        <item>@font/coiny</item>
+        <item>@font/coming_soon</item>
+        <item>@font/iceland</item>
+    </array>
+</resources>

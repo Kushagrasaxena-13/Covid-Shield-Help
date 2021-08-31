@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covidshield">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/covid"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CovidShield">
+        <activity android:name=".Tick"
+            android:theme="@style/Theme.Design.NoActionBar"></activity>
+        <activity
+            android:name=".Simple"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Type_user"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Info"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9913727026050561~9273887385" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

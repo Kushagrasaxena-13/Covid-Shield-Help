@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380815874269",
+    "project_id": "covid-shield-2466c",
+    "storage_bucket": "covid-shield-2466c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380815874269:android:67968a63b043ca26f12334",
+        "android_client_info": {
+          "package_name": "com.example.covidshield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380815874269-96va5dltfnd3lgffe6ja3qdaudu1tsuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0GKuvaHK6K2P1zBIMxMKXWAWPFP43Yuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380815874269-96va5dltfnd3lgffe6ja3qdaudu1tsuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
